@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Tavily.csproj" />
+  </Folder>
+  <Folder Name="/tests/" />
+  <Folder Name="/tests/integration-tests/">
+    <Project Path="tests/integration-tests/Tavily.IntegrationTests.csproj" />
+  </Folder>
+  <Folder Name="/tests/unit-tests/">
+    <Project Path="tests/unit-tests/Tavily.UnitTests.csproj" />
+  </Folder>
+</Solution>
