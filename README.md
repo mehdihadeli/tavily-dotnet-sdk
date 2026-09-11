@@ -1,9 +1,12 @@
-# Tavily SDK
+# Tavily .NET SDK
+
+Use Tavily search, extraction, crawling, mapping, research, and usage APIs from
+.NET applications with strongly typed requests and responses.
+
+The package supports .NET 10, .NET Framework 4.7.2, and .NET Standard 2.0. It
+also provides `Microsoft.Extensions.AI` tools for search and extraction.
 
 API coverage follows the official [Tavily OpenAPI specification](https://docs.tavily.com/documentation/api-reference/openapi.json).
-
-This is a handwritten .NET client for Tavily. It does not use AutoSDK or
-generated source files.
 
 ## Installation
 
