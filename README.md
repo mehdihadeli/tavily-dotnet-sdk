@@ -351,8 +351,18 @@ ordinary test runs do not spend API credits.
 
 ## Documentation
 
-See the [package guide](docs/package.md) for installation, authentication,
-supported API operations, AI wrappers, errors, and testing.
+The [VitePress documentation](docs/index.md) contains the rendered-site
+source, including the quickstart, authentication, API capabilities, AI
+wrappers, transport configuration, development workflow, and reference pages.
+Run the docs locally from `docs/` with:
+
+```bash
+npm install
+npm run dev
+```
+
+The [package guide](docs/package.md) remains available as a single-file
+overview for package consumers.
 
 For endpoint parameters and server behavior, see the [Tavily API
 reference](https://docs.tavily.com/documentation/api-reference) and the

@@ -11,6 +11,10 @@
 *.sln.docstates
 *.env
 
+# VitePress documentation dependencies and output
+docs/node_modules/
+docs/.vitepress/dist/
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
